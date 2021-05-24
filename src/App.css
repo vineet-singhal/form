@@ -36,3 +36,125 @@
     transform: rotate(360deg);
   }
 }
+
+.form-back{
+  background-color: #48BEF9;
+  color: white;
+  padding-left: 4vw;
+  height: 100%;
+}
+
+.text-back{
+  background-color: #3AB6F3;
+  color: white;
+  border: 0px;
+  height: 10vh;
+  width: 30vw;
+  font-size: 3vh;
+  margin-bottom: 4vh;
+  margin-right: 4vh;
+}
+
+input:focus{
+  background-color: #26A9EA;
+  outline: none;
+}
+
+
+.textarea-back{
+  background-color: #3AB6F3;
+  color: white;
+  border: 0px;
+  height: 50vh;
+  width: 20em;
+  font-size: 3vh;
+  resize: none;
+  margin-bottom: 4vh;
+}
+
+textarea:focus{
+  background-color: #26A9EA;
+  outline: none;
+}
+
+::placeholder{
+  color: white;
+  opacity: 0.5;
+}
+
+.super-bold{
+  font-size: 10vh;
+  font-weight: 700;
+}
+
+button{
+  position:relative;
+    overflow:hidden;
+    width:7rem;
+    color:white;
+    border:2px solid white;
+    background-color:transparent;
+    cursor:pointer;
+    line-height:2;
+    margin:0;
+    padding:0;
+    width: 9rem;
+    border-radius:1.5rem;
+    font-size:1rem;
+    outline:none;
+    transition:transform .125s;
+    font-weight: 600;
+    float: right;
+}
+
+button:hover{
+  background-color: white;
+  color: #3AB6F3;
+  
+}
+
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.bold{
+    font-size: 10vh;
+}
+
+.sub-text{
+  margin-top: -5vh;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.address{
+  margin-top: 30vh;
+}
+
+.contactus{
+  margin-left: 5%;
+}
+
+.contact-button{
+  float:left;
+  margin-top: 3vh;
+}
+
+.cur{
+  cursor:pointer;
+}
