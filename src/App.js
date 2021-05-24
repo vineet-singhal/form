@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import ContactUs from "./components/contact/ContactUs";
+import HomeContact from "./components/contact/HomeContact";
+
 function App() {
   return (
-    <ContacUs/>
+    <HomeContact/>
   );
 }
 
